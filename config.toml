@@ -1,0 +1,42 @@
+baseurl = "/"
+languageCode = "en-us"
+theme = "hello-friend"
+paginate = 5
+
+[params]
+  contentTypeName = "posts"
+  defaultTheme = "dark"
+  showMenuItems = 2
+  showReadingTime = false
+
+[languages]
+  [languages.en]
+    title = "Mediaclip Tech Blog"
+    subtitle = "Useful things we'd like to share with the community"
+    keywords = "mediaclip, c#, dotnet, azure, devops, git, blog"
+    copyright = "Mediaclip"
+    menuMore = "Show more"
+    writtenBy = "Written by"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    minuteReadingTime = "min read"
+    dateFormatSingle = "2006-01-02"
+    dateFormatList = "2006-01-02"
+
+    [languages.en.params.logo]
+      logoText = "Mediaclip Tech Blog"
+      logoHomeLink = "/"
+    # path = "/img/your-example-logo.svg"
+    # alt = "Mediaclip Tech Blog"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "showcase"
+        name = "Showcase"
+        url = "/showcase"
